@@ -5,8 +5,7 @@ FILES_DIR=$1
 
 # Abort if python2.7 already installed
 if [ -e /usr/local/bin/python2.7 ]; then
-    echo "Python2.7 already installed in /usr/local/bin. Exiting."
-    exit 0
+    echo "Python2.7 already installed in /usr/local/bin. Continuing anyway."
 fi
 # The above assumes 3.4 was also installed
 
