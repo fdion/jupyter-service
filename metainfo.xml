@@ -6,14 +6,14 @@
             <name>JUPYTER</name>
             <displayName>Jupyter</displayName>
             <comment>Jupyter (IPython3)</comment>
-            <version>0.3.0</version>
+            <version>0.4.0</version>
             <components>
                 <component>
                   <name>JUPYTER_MASTER</name>
                   <displayName>Jupyter (IPython3) Server</displayName>
                   <category>MASTER</category>
                   <cardinality>1+</cardinality>
-                  <co-locate>JUPYTER/PYTHON27_CLIENT</co-locate>
+                  <co-locate>JUPYTER/PYTHON_CLIENT</co-locate>
                   <co-locate>SPARK/SPARK_CLIENT</co-locate>
                   <commandScript>
                     <script>scripts/ambari/master.py</script>
@@ -22,8 +22,8 @@
                   </commandScript>
                 </component>
                 <component>
-                  <name>PYTHON27_CLIENT</name>
-                  <displayName>Python2.7</displayName>
+                  <name>PYTHON_CLIENT</name>
+                  <displayName>Python</displayName>
                   <category>CLIENT</category>
                   <cardinality>1+</cardinality>
                   <commandScript>
