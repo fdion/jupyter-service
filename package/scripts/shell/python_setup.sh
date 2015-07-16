@@ -26,10 +26,12 @@ do
     tar -xzvf $filename -C /usr/local/lib/python2.7/site-packages/
 done
 
+cd ..
 # Python 3.4 altinstall
 tar -xzvf $FILES_DIR/Python-3.4.3.tgz
 echo Installing Python-3.4.3..
 cd Python-3.4.3
+./configure
 make altinstall
 easy_install-3.4 pip
 
