@@ -1,0 +1,4 @@
+#!/usr/local/bin/python3.4
+
+from jupyterhub.singleuser import main
+main()

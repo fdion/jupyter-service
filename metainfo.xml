@@ -60,6 +60,9 @@
                   <package><name>pandoc-citeproc</name></package>
                   <package><name>readline-devel</name></package>
                   <package><name>geos-devel</name></package>
+                  <package><name>libffi-devel</name></package>
+                  <package><name>npm</name></package>
+                  <package><name>nodejs-legacy</name></package>
                 </packages>
               </osSpecific>
             </osSpecifics>

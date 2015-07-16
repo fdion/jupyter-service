@@ -1,0 +1,10 @@
+#!/usr/local/bin/python3.4
+# EASY-INSTALL-ENTRY-SCRIPT: 'pyhadoop==0.1','console_scripts','pyhadoop'
+__requires__ = 'pyhadoop==0.1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('pyhadoop==0.1', 'console_scripts', 'pyhadoop')()
+    )

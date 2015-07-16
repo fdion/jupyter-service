@@ -1,0 +1,10 @@
+#!/usr/local/bin/python3.4
+# EASY-INSTALL-ENTRY-SCRIPT: 'cornet==0.1rc1','console_scripts','cornet'
+__requires__ = 'cornet==0.1rc1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('cornet==0.1rc1', 'console_scripts', 'cornet')()
+    )
