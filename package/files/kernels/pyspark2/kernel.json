@@ -1,0 +1,15 @@
+{
+ "display_name": "Pyspark2 (Python 2)",
+ "language": "python",
+ "codemirror_mode": {
+  "version": 3,
+  "name": "ipython"
+ },
+ "argv": [
+  "pyspark",
+  "-c",
+  "from IPython.kernel.zmq.kernelapp import main; main()",
+  "-f",
+  "{connection_file}"
+ ]
+}

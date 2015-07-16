@@ -1,7 +1,7 @@
 {
-  "display_name": "R",
+  "display_name": "sparkR",
   "argv": [
-    "R",
+    "sparkR",
     "-e",
     "IRkernel::main()",
     "--args",
